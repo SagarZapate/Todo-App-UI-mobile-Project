@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+  background-size: auto;
+  opacity: 1;
+}
+
+.mainbar {
+  width:1800px;
+  height: 70px;
+  background: #ffffff 0% 0%  padding-box;
+  box-shadow: 0px 3px 30px hsla(160, 10%, 30%, 0.161);
+  opacity: 1;
+  position: relative;
+  bottom: 50px;
+  right: 40px;
+  -ms-flex-align: start;
+}
+
+.upper-container {
+  width: 50%;
+  height: 10%;
+  margin: 50px auto;
+  display: inline-block;
+  }
+
+.upper-container1 {
+  width: 50%;
+  height: 70px;
+  padding-top: 20px;
+}
+
+#tasks {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family:fantasy;
+  margin-left: 700px;
+  padding-left: 50px;
+  position: relative;
+}
+
+#list {
+  font-size: 2.3rem;
+  margin-left: 10px;
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 5px;
+  padding-top: 20px;
+  color: #00a5ec;
+}
+
+.upper-container2 {
+  width: 30%;
+  height: 100%;
+  padding-top: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
+#circle {
+  padding-top: 70px;
+  right: 100%;
+  position: relative;
+  bottom: 10px;
+  margin-left: 170px;
+}
+
+.card1 {
+  border: 2px solid rgb(244, 244, 247);
+  width: 340px;
+  height: 400px;
+  padding-bottom: 300px;
+  position: relative;
+  border-radius: 8px;
+  right: 500px;
+  background-color: #ffff;
+  box-shadow: 5px 2px 8px 2px rgb(153, 167, 170);
+  
+}
+.card1:hover{
+  box-shadow: 5px 2px 10px 5px rgb(150, 151, 148);
+  }
+  
+.card-container1 {
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  left: 20px;
+  right: 0;
+  font-size: 23px;
+  width: 90%;
+  height: 15%;
+  color: #00a5ec;
+  border-bottom: 1px solid rgb(174, 167, 167);
+}
+
+.card-container2 {
+  font-size: 18px;
+  width: 80%;
+  text-align: left;
+  height: 20%;
+  color: rgb(171, 55, 86);
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
+.card-container3 {
+  font-size: 18px;
+  width: 90%;
+  text-align: left;
+  height: 10%;
+  color: rgb(72, 222, 48);
+  position: absolute;
+  top: 45%;
+  font-weight: bold;
+  left: 10px;
+  font-size: 20px;
+}
+
+#check {
+  width: 30px;
+  margin-left: 10px;
+  height: 20px;
+}
+
+.card2 {
+  border: 2px solid rgb(230, 225, 228);
+  background-color: #ffff;
+  width: 340px;
+  height: 400px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 5px 2px 8px 2px rgb(152, 162, 165);
+  margin-top: 420px;
+}
+
+.card2:hover{
+  box-shadow: 5px 2px 10px 5px rgb(150, 151, 148);
+  }
+  
+
+.card-container4 {
+  position: relative;
+  top: 15px;
+  right: 0;
+  left: 20px;
+  font-size: 23px;
+  width: 80%;
+  text-align: left;
+  height: 15%;
+  color: #00a5ec;
+  border-bottom: 1px solid rgb(174, 167, 167);
+  text-align: left;
+}
+
+.card-container5 {
+  font-size: 20px;
+  width: 100%;
+  text-align: left;
+  height: 20%;
+  color: rgb(198, 83, 83);
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.card-container6 {
+  font-size: 20px;
+  width: 90%;
+  text-align: left;
+  height: 100%;
+  color: rgb(72, 222, 48);
+  position: absolute;
+  top: 45%;
+  font-weight: bold;
+  left: 10px;
+}
+
+#check1 {
+  width: 30px;
+  margin-left: 10px;
+  height: 20px;
+}
+
+.card3 {
+  padding-bottom: 100px;
+  border: 2px solid rgb(251, 251, 255);
+  width: 340px;
+  background-color: #ffff;
+  height: 400px;
+  position: relative;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: left;
+  box-shadow: 5px 2px 8px 2px rgb(153, 166, 169);
+}
+
+.card3:hover{
+  box-shadow: 5px 2px 10px 5px rgb(150, 151, 148);
+  }
+  
+
+
+.card-container7 {
+  position: relative;
+  top: 15px;
+  right: 0;
+  left: 20px;
+  font-size: 21px;
+  width: 90%;
+  text-align: left;
+  height: 20%;
+  text-align: left;
+  color: #00a5ec;
+  border-bottom: 1px solid rgb(174, 167, 167);
+}
+
+.card-container8 {
+  font-size: 20px;
+  width: 100%;
+  text-align: left;
+  height: 20%;
+  color: rgb(213, 132, 144);
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+.card-container9 {
+  font-size: 20px;
+  width: 90%;
+  text-align: left;
+  height: 10%;
+  color: rgb(72, 222, 48);
+  position: absolute;
+  top: 45%;
+  font-weight: bold;
+  left: 10px;
+}
+
+#check2 {
+  width: 30px;
+  margin-left: 10px;
+  height: 20px;
+}
+
+@media  (min-width:340)and (max-width: 600px) {
+  .upper-container {
+    width: 80%;
+  }
+  #addnewtask {
+    display: none;
+  }
+  .card1 {
+    width: 340px;
+  }
+
+  .card2 {
+    width: 340px;
+  }
+  .card3 {
+    width: 340px;
+  }
+  #tasks {
+  margin-left: 20px;
+  }
+}
+
+
+
+
+
+
+/*index2.html code*/
+
+
+
+
+
+
+.notshow {
+  filter: blur(5px);
+  -webkit-filter: (6px);
+  opacity: 1;
+}
+
+.pop-up {
+  position: absolute;
+  height: 250px;
+  width: 350px;
+  border: 1.5px solid rgb(205, 229, 239);
+  top: 30%;
+  border-radius: 10px;
+  color: #0ab9e0;
+  font-size: 20px;
+  box-shadow: 4px 4px 8px  1px rgb(204, 228, 231);
+  background-color: white;
+  padding: 20px;
+  left: 720px;
+}
+
+#add-new {
+  font-size: 30px;
+  opacity: 1px;
+  padding-bottom: 20px;
+}
+
+.pop-upbar {
+  margin-top: 30px;
+  border-radius: 2px;
+  width: 320px;
+  height: 27%;
+  border: 1.5 solid rgb(211, 221, 230);
+  box-shadow: 1px 2px 5px rgb(202, 241, 241);
+  padding: 5px;
+  font-size: 20px;
+  
+}
+
+.pop-up-button {
+  width: 30%;
+  height: 20%;
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  left: 235px;
+  font-size: 20px;
+  background-color: rgb(70, 194, 239);
+  box-shadow: 1px 1px 1px 1px rgb(103, 122, 127);
+}
+
+.pop-up-button:hover{
+
+background-color:rgb(47, 237, 139);
+}
+
+.close {
+  height: 20px;
+  position: absolute;
+  margin-bottom: 25px;
+  bottom: 200px;
+  left: 325px;
+  width: 20px;
+}
+@media (max-width: 600px) {
+
+  .pop-up {
+left: 720px;
+}
+.pop-up-button {
+  width: 110px;
+}
+}
+
+
+
+
+/* index2.html code*/
+
+
+
+
+#circle-arrow{
+  padding-bottom: 10px;
+  right: 40%;
+  position: relative;
+  bottom: 25px;
+}
+
+@media (max-width: 600px) {
+
+  #circle-arrow{
+    right:40%;
+  }
+
+  
+  }
